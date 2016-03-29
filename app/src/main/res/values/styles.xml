@@ -21,8 +21,10 @@
         <item name="fontPath">fonts/ADAM_CG_PRO.otf</item>
     </style>
 
-    <style name="AppTheme.NavigationView">
+    <style name="AppTheme.NavigationView" parent="ThemeOverlay.AppCompat.Light">
         <item name="fontPath">fonts/ADAM_CG_PRO.otf</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:gravity">center_vertical|end</item>
     </style>
 
 </resources>
